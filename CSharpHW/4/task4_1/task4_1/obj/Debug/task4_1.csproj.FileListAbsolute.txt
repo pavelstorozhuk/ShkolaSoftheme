@@ -1,0 +1,13 @@
+c:\users\user\documents\visual studio 2013\Projects\task4_1\task4_1\bin\Debug\task4_1.exe.config
+c:\users\user\documents\visual studio 2013\Projects\task4_1\task4_1\bin\Debug\task4_1.exe
+c:\users\user\documents\visual studio 2013\Projects\task4_1\task4_1\bin\Debug\task4_1.pdb
+c:\users\user\documents\visual studio 2013\Projects\task4_1\task4_1\obj\Debug\task4_1.csprojResolveAssemblyReference.cache
+c:\users\user\documents\visual studio 2013\Projects\task4_1\task4_1\obj\Debug\MainWindow.baml
+c:\users\user\documents\visual studio 2013\Projects\task4_1\task4_1\obj\Debug\MainWindow.g.cs
+c:\users\user\documents\visual studio 2013\Projects\task4_1\task4_1\obj\Debug\App.g.cs
+c:\users\user\documents\visual studio 2013\Projects\task4_1\task4_1\obj\Debug\task4_1_MarkupCompile.cache
+c:\users\user\documents\visual studio 2013\Projects\task4_1\task4_1\obj\Debug\task4_1.g.resources
+c:\users\user\documents\visual studio 2013\Projects\task4_1\task4_1\obj\Debug\task4_1.Properties.Resources.resources
+c:\users\user\documents\visual studio 2013\Projects\task4_1\task4_1\obj\Debug\task4_1.csproj.GenerateResource.Cache
+c:\users\user\documents\visual studio 2013\Projects\task4_1\task4_1\obj\Debug\task4_1.exe
+c:\users\user\documents\visual studio 2013\Projects\task4_1\task4_1\obj\Debug\task4_1.pdb

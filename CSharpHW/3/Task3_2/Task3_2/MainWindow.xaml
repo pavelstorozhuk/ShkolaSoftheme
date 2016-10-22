@@ -1,0 +1,13 @@
+﻿<Window x:Class="Task3_2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="398.135">
+    <Grid>
+        <TextBox Name="DateTextBox" HorizontalAlignment="Left" Height="23" Margin="100,59,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="129"/>
+        <Label Content="Enter your date of birth" HorizontalAlignment="Left" Margin="100,28,0,0" VerticalAlignment="Top" Width="201"/>
+        <Button Name ="GetZodiacSign" Content="getZodiacSign" HorizontalAlignment="Left" Margin="100,87,0,0" VerticalAlignment="Top" Width="129" Click="GetZodiacSign_Click"/>
+        <Image Name="ZodiacSignImage" HorizontalAlignment="Left" Height="152" Margin="65,131,0,0" VerticalAlignment="Top" Width="236"/>
+        <Label Name="Result" Content="" HorizontalAlignment="Left" Margin="119,283,0,0" VerticalAlignment="Top" Width="201"/>
+
+    </Grid>
+</Window>

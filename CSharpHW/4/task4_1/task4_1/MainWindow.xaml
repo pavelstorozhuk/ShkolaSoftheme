@@ -1,0 +1,47 @@
+﻿<Window x:Class="task4_1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="366" Width="574">
+    <Grid>
+        <TextBox Name="FirstNameTextBox" HorizontalAlignment="Left" Height="23" Margin="108,32,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="136"/>
+        <Label Content="First Name" HorizontalAlignment="Left" Margin="27,29,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.153,0.544" Width="76"/>
+        <Label Content="Last Name" HorizontalAlignment="Left" Margin="28,58,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.153,0.544" Width="75"/>
+        <TextBox  Name="LastNameTextBox" HorizontalAlignment="Left" Height="23" Margin="108,58,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="136"/>
+        <Label Content="BirthDay" HorizontalAlignment="Left" Margin="38,85,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.153,0.544" Width="64"/>
+        <TextBox Name="BirthDayTextBox" HorizontalAlignment="Left" Height="23" Margin="108,85,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="136"/>
+        <Label Content="Gender" HorizontalAlignment="Left" Margin="47,112,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.153,0.544" Width="55"/>
+        <TextBox Name="GenderTextBox"  HorizontalAlignment="Left" Height="23" Margin="108,113,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="136"/>
+        <TextBox Name="EmailTextBox"  HorizontalAlignment="Left" Height="23" Margin="108,141,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="136"/>
+        <Label Content="Email" HorizontalAlignment="Left" Margin="58,138,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.153,0.544" Width="44"/>
+        <Label Content="PhoneNumber" HorizontalAlignment="Left" Margin="0,164,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.153,0.544" Width="102"/>
+        <TextBox Name="PhoneTextBox"  HorizontalAlignment="Left" Height="23" Margin="108,167,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="136"/>
+        <RichTextBox Name="AdditionalInfoBox" HorizontalAlignment="Left" Height="51" Margin="108,202,0,0" VerticalAlignment="Top" Width="136">
+            <FlowDocument>
+                <Paragraph>
+                    <Run />
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+        <Label Content="Additional info" HorizontalAlignment="Left" Margin="0,202,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.153,0.544" Width="102" Height="26">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="1.538"/>
+                    <RotateTransform/>
+                    <TranslateTransform X="0.518"/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Button Click="Register_Click" Name="Register" Content="Register" HorizontalAlignment="Left" Margin="108,274,0,0" VerticalAlignment="Top" Width="85"/>
+        <Label Name="FirstName_label" Content="" HorizontalAlignment="Left" Margin="249,25,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.153,0.544" Width="307"/>
+        <Label Name="LastName_label" Content="" HorizontalAlignment="Left" Margin="249,51,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.153,0.544" Width="307"/>
+        <Label Name="BirthDayLabel" Content="" HorizontalAlignment="Left" Margin="249,77,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.153,0.544" Width="307"/>
+        <Label Name="GenderLabel" Content="" HorizontalAlignment="Left" Margin="249,108,0,0" VerticalAlignment="Top" Width="307"/>
+        <Label Name="EmailLabel" Content="" HorizontalAlignment="Left" Margin="250,139,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.153,0.544" Width="306"/>
+        <Label x:Name="PhoneNumberLabel" Content="" HorizontalAlignment="Left" Margin="250,164,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.153,0.544" Width="306"/>
+        <Label x:Name="AdditionalInfoLabel" Content="" HorizontalAlignment="Left" Margin="250,202,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.153,0.544" Width="306"/>
+
+
+
+    </Grid>
+</Window>

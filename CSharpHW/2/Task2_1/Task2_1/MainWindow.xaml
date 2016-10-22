@@ -1,0 +1,33 @@
+﻿<Window x:Class="Task2_1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="190.299" Width="320.523">
+    <Grid Height="142" VerticalAlignment="Top" Margin="10,10,2,0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="278*"/>
+            <ColumnDefinition Width="239*"/>
+        </Grid.ColumnDefinitions>
+        <ComboBox   DropDownClosed="NumericTypeComboBox_DropDownClosed"  Name="NumericTypeComboBox" Text="value" HorizontalAlignment="Left" Margin="11,11,0,0" VerticalAlignment="Top" Width="263" Grid.ColumnSpan="2" RenderTransformOrigin="0.5,0.5">
+            <ComboBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.085"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </ComboBox.RenderTransform>
+            <ComboBoxItem>Byte</ComboBoxItem>
+            <ComboBoxItem>sByte</ComboBoxItem>
+            <ComboBoxItem>Short</ComboBoxItem>
+            <ComboBoxItem>Int</ComboBoxItem>
+            <ComboBoxItem>uInt</ComboBoxItem>
+            <ComboBoxItem>Long</ComboBoxItem>
+            <ComboBoxItem>uLong</ComboBoxItem>
+            <ComboBoxItem>Double</ComboBoxItem>
+            <ComboBoxItem>Float</ComboBoxItem>
+            <ComboBoxItem>Decimal</ComboBoxItem>
+        </ComboBox>
+        <Label Name="Result" Content="" Margin="10,45,31,0" VerticalAlignment="Top" Grid.ColumnSpan="2" Height="87"/>
+
+    </Grid>
+</Window>
