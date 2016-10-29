@@ -1,0 +1,8 @@
+c:\Users\User\documents\visual studio 2013\Projects\Task11_1\Task11_2\bin\Debug\Task11_2.exe.config
+c:\Users\User\documents\visual studio 2013\Projects\Task11_1\Task11_2\bin\Debug\Task11_2.exe
+c:\Users\User\documents\visual studio 2013\Projects\Task11_1\Task11_2\bin\Debug\Task11_2.pdb
+c:\Users\User\documents\visual studio 2013\Projects\Task11_1\Task11_2\bin\Debug\Task11_1.dll
+c:\Users\User\documents\visual studio 2013\Projects\Task11_1\Task11_2\bin\Debug\Task11_1.pdb
+c:\Users\User\documents\visual studio 2013\Projects\Task11_1\Task11_2\obj\Debug\Task11_2.csprojResolveAssemblyReference.cache
+c:\Users\User\documents\visual studio 2013\Projects\Task11_1\Task11_2\obj\Debug\Task11_2.exe
+c:\Users\User\documents\visual studio 2013\Projects\Task11_1\Task11_2\obj\Debug\Task11_2.pdb

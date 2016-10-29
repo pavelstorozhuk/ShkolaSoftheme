@@ -1,0 +1,5 @@
+c:\users\user\documents\visual studio 2013\Projects\Task11_1\Task11_1\bin\Debug\Task11_1.pdb
+c:\users\user\documents\visual studio 2013\Projects\Task11_1\Task11_1\obj\Debug\Task11_1.pdb
+c:\users\user\documents\visual studio 2013\Projects\Task11_1\Task11_1\bin\Debug\Task11_1.dll.config
+c:\users\user\documents\visual studio 2013\Projects\Task11_1\Task11_1\bin\Debug\Task11_1.dll
+c:\users\user\documents\visual studio 2013\Projects\Task11_1\Task11_1\obj\Debug\Task11_1.dll
