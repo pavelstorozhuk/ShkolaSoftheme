@@ -1,0 +1,7 @@
+C:\Users\User\documents\visual studio 2013\Projects\Task16_2\TestTask16_2\bin\Debug\TestTask16_2.dll
+C:\Users\User\documents\visual studio 2013\Projects\Task16_2\TestTask16_2\bin\Debug\TestTask16_2.pdb
+C:\Users\User\documents\visual studio 2013\Projects\Task16_2\TestTask16_2\bin\Debug\Task16_2.exe
+C:\Users\User\documents\visual studio 2013\Projects\Task16_2\TestTask16_2\bin\Debug\Task16_2.pdb
+C:\Users\User\documents\visual studio 2013\Projects\Task16_2\TestTask16_2\obj\Debug\TestTask16_2.csprojResolveAssemblyReference.cache
+C:\Users\User\documents\visual studio 2013\Projects\Task16_2\TestTask16_2\obj\Debug\TestTask16_2.dll
+C:\Users\User\documents\visual studio 2013\Projects\Task16_2\TestTask16_2\obj\Debug\TestTask16_2.pdb

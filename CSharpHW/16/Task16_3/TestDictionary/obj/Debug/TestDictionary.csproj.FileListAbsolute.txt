@@ -1,0 +1,7 @@
+c:\Users\User\documents\visual studio 2013\Projects\Task16_3\TestDictionary\bin\Debug\TestDictionary.dll
+c:\Users\User\documents\visual studio 2013\Projects\Task16_3\TestDictionary\bin\Debug\TestDictionary.pdb
+c:\Users\User\documents\visual studio 2013\Projects\Task16_3\TestDictionary\bin\Debug\Task16_3.exe
+c:\Users\User\documents\visual studio 2013\Projects\Task16_3\TestDictionary\bin\Debug\Task16_3.pdb
+c:\Users\User\documents\visual studio 2013\Projects\Task16_3\TestDictionary\obj\Debug\TestDictionary.csprojResolveAssemblyReference.cache
+c:\Users\User\documents\visual studio 2013\Projects\Task16_3\TestDictionary\obj\Debug\TestDictionary.dll
+c:\Users\User\documents\visual studio 2013\Projects\Task16_3\TestDictionary\obj\Debug\TestDictionary.pdb
