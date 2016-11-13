@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<catalog>
+  <book id="bk102">
+    <author>Ralls, Kim</author>
+    <title>Midnight Rain</title>
+    <genre>Fantasy</genre>
+    <price>5.95</price>
+    <publish_date>2000-12-16</publish_date>
+    <description>
+      A former architect battles corporate zombies,
+      an evil sorceress, and her own childhood to become queen
+      of the world.
+    </description>
+  </book>
+  <book id="2">
+    <author>shild</author>
+    <title>c#</title>
+    <price>100</price>
+    <genre>programming</genre>
+    <publish_date>programming</publish_date>
+    <description>descr</description>
+  </book>
+</catalog>

@@ -1,0 +1,8 @@
+serialization binary 329              100 iteration
+deserialization binary 32
+Serialization Json 199ms
+Deserialization Json 54 ms
+Serialization Xml 402ms
+Deserialization Xml 426ms
+Serialization Proto 233ms
+Deserialization Proto 47ms

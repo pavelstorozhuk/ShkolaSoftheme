@@ -16,7 +16,8 @@ namespace Task18_1
         public MobileAccount(string phoneNumber)
         {
             PhoneNumber = phoneNumber;
-        }
+           Money=  MobileOperator.GetBalance(this);
+        } 
 
         public MobileAccount(string phoneNumber,decimal money)
         {
@@ -39,8 +40,6 @@ namespace Task18_1
             remove { _getCall -= value; }
         }
 
-       
-
         public void GetMessage(IMobileAccount account,string message)
         {
             if (_getMessage != null)
@@ -49,6 +48,7 @@ namespace Task18_1
                 _getMessage -= MobileOperator.ShowSms;
             }
         }
+
         public void GetCall(IMobileAccount account)
         {
             if (_getCall != null)
@@ -61,7 +61,7 @@ namespace Task18_1
         {
           
             
-            MobileOperator.Connect(this, account);
+            MobileOperator.Connect(this,(MobileAccount) account);
 
         }
 

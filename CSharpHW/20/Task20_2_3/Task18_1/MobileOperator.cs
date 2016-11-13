@@ -7,35 +7,34 @@ using System.Threading.Tasks;
 
 namespace Task18_1
 {
-    static class  MobileOperator
+    static class MobileOperator
     {
         private static MobileAccountsRepository _repository;
 
 
-         static MobileOperator()
+        static MobileOperator()
         {
             _repository = new MobileAccountsRepository();
         }
 
-        public  static bool Connect(IMobileAccount account1, IMobileAccount account2)
+        public static bool Connect(IMobileAccount account1, IMobileAccount account2)
         {
+            account1 = _repository.GetMobileAccountByPhoneNumber(account1.PhoneNumber);
+            account2 = _repository.GetMobileAccountByPhoneNumber(account2.PhoneNumber);
             if (account1.PhoneNumber == account2.PhoneNumber)
                 return false;
             if (_repository.Containts(account1.PhoneNumber) && _repository.Containts(account2.PhoneNumber))
             {
                 SendInfoMessage(account1, 1m);
-               
-                    account2.GetCallEvent += ShowMessage;
-                    account2.GetCall(account1);
-                
-
+                account2.GetCallEvent += ShowMessage;
+                account2.GetCall(account1);
+                _repository.SetMobileAccountChanges((MobileAccount) account1);
                 return true;
-
             }
             return false;
 
         }
-        public static bool SendSms(IMobileAccount account1, IMobileAccount account2,string message)
+        public static bool SendSms(IMobileAccount account1, IMobileAccount account2, string message)
         {
             if (account1.PhoneNumber == account2.PhoneNumber)
                 return false;
@@ -43,8 +42,9 @@ namespace Task18_1
             {
                 SendInfoMessage(account1, 0.5m);
                 account2.GetMessageEvent += ShowSms;
-                account2.GetMessage(account1,message);
-              
+                account2.GetMessage(account1, message);
+                _repository.SetMobileAccountChanges((MobileAccount)account1);
+
                 return true;
 
             }
@@ -61,7 +61,7 @@ namespace Task18_1
             }
             else
             {
-                
+
                 account1.GetMessageFromOperator(new OperatorInfoMessage());
             }
         }
@@ -70,16 +70,21 @@ namespace Task18_1
             if (sender is IMobileAccount)
             {
                 Console.WriteLine(String.Format("you were called from number {0}",
-                            ((MobileAccount)sender).PhoneNumber));
+                            ((IMobileAccount)sender).PhoneNumber));
             }
         }
         public static void ShowSms(object sender, string message)
         {
             if (sender is IMobileAccount)
             {
-                Console.WriteLine(String.Format("you have received the message {0} from number {1}",message,
+                Console.WriteLine(String.Format("you have received the message {0} from number {1}", message,
                             ((IMobileAccount)sender).PhoneNumber));
             }
+        }
+
+        public static decimal GetBalance(IMobileAccount account)
+        {
+            return _repository.GetMobileAccountByPhoneNumber(account.PhoneNumber).Money;
         }
     }
 }

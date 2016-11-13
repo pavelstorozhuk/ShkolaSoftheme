@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<ArrayOfMobileAccount xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MobileAccount PhoneNumber="0668348842" Money="9" />
+  <MobileAccount PhoneNumber="0637543684" Money="9.5" />
+  <MobileAccount PhoneNumber="0662345623" Money="10" />
+  <MobileAccount PhoneNumber="0662345643" Money="10" />
+  <MobileAccount PhoneNumber="0662342623" Money="10" />
+  <MobileAccount PhoneNumber="0637543684" Money="9.5" />
+</ArrayOfMobileAccount>

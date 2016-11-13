@@ -10,3 +10,12 @@ C:\Users\User\Documents\Visual Studio 2013\Projects\Task20_2\Task18_1\obj\Debug\
 C:\Users\User\Documents\Visual Studio 2013\Projects\Task20_2\Task18_1\bin\Debug\Task18_1.exe
 C:\Users\User\Documents\Visual Studio 2013\Projects\Task20_2\Task18_1\bin\Debug\Task18_1.pdb
 C:\Users\User\Documents\Visual Studio 2013\Projects\Task20_2\Task18_1\obj\Debug\Task18_1.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\Visual Studio 2013\Projects\Task21_1\Task18_1\bin\Debug\Task18_1.exe.config
+C:\Users\User\Documents\Visual Studio 2013\Projects\Task21_1\Task18_1\obj\Debug\Task18_1.exe
+C:\Users\User\Documents\Visual Studio 2013\Projects\Task21_1\Task18_1\obj\Debug\Task18_1.pdb
+C:\Users\User\Documents\Visual Studio 2013\Projects\Task21_1\Task18_1\bin\Debug\Task18_1.exe
+C:\Users\User\Documents\Visual Studio 2013\Projects\Task21_1\Task18_1\bin\Debug\Task18_1.pdb
+C:\Users\User\Documents\Visual Studio 2013\Projects\Task21_1\Task18_1\obj\Debug\Task18_1.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\Visual Studio 2013\repo\CSharpHW\20\Task20_2_3\Task18_1\bin\Debug\Task18_1.exe.config
+C:\Users\User\Documents\Visual Studio 2013\repo\CSharpHW\20\Task20_2_3\Task18_1\obj\Debug\Task18_1.exe
+C:\Users\User\Documents\Visual Studio 2013\repo\CSharpHW\20\Task20_2_3\Task18_1\obj\Debug\Task18_1.pdb

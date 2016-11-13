@@ -4,3 +4,6 @@ c:\users\user\documents\visual studio 2013\Projects\Task16_3\Task16_3\bin\Debug\
 c:\users\user\documents\visual studio 2013\Projects\Task16_3\Task16_3\obj\Debug\Task16_3.csprojResolveAssemblyReference.cache
 c:\users\user\documents\visual studio 2013\Projects\Task16_3\Task16_3\obj\Debug\Task16_3.exe
 c:\users\user\documents\visual studio 2013\Projects\Task16_3\Task16_3\obj\Debug\Task16_3.pdb
+C:\Users\User\Documents\Visual Studio 2013\repo\CSharpHW\16\Task16_3\Task16_3\bin\Debug\Task16_3.exe.config
+C:\Users\User\Documents\Visual Studio 2013\repo\CSharpHW\16\Task16_3\Task16_3\obj\Debug\Task16_3.exe
+C:\Users\User\Documents\Visual Studio 2013\repo\CSharpHW\16\Task16_3\Task16_3\obj\Debug\Task16_3.pdb

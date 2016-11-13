@@ -1,0 +1,38 @@
+﻿<Window x:Class="Task23.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="494.776" Width="753.358">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="233*"/>
+            <ColumnDefinition Width="445*"/>
+        </Grid.ColumnDefinitions>
+        <Button Name="Load" Click="Load_OnClick" Content="Load File" HorizontalAlignment="Left" Margin="30,27,0,0" VerticalAlignment="Top" Width="126"/>
+        <RichTextBox Name="Text" HorizontalAlignment="Left" Height="260" Margin="61,167,0,0" VerticalAlignment="Top" Width="595" Grid.ColumnSpan="2">
+            <FlowDocument>
+                <Paragraph>
+                    <Run Text=""/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+        <Button Name="Add" Click="Add_OnClick" Content="Add" Margin="30,75,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="108"/>
+        <Button Name="Remove" Click="Remove_OnClick" Content="Remove" HorizontalAlignment="Left" Margin="164,75,0,0" VerticalAlignment="Top" Width="96" Grid.ColumnSpan="2"/>
+        <Button Content="Find" Name="Find" Click="Find_OnClick" HorizontalAlignment="Left" Margin="34,75,0,0" VerticalAlignment="Top" Width="97" Grid.Column="1"/>
+        <TextBox Name="IdBox" HorizontalAlignment="Left" Height="23" Margin="68,119,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="39"/>
+        <Label Content="Id" HorizontalAlignment="Left" Margin="43,116,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.584,0.374"/>
+        <Label Content="Author" HorizontalAlignment="Left" Margin="112,116,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="AuthorBox" HorizontalAlignment="Left" Height="23" Margin="164,119,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="85" Grid.ColumnSpan="2"/>
+        <Label Content="Title" Grid.Column="1" HorizontalAlignment="Left" Margin="10,119,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.606,0.585"/>
+        <TextBox Name="TitleBox" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="47,119,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="84"/>
+        <Label Content="Genre" Grid.Column="1" HorizontalAlignment="Left" Margin="136,116,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="GenreBox" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="183,119,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="86"/>
+        <Label Content="Price:" Grid.Column="1" HorizontalAlignment="Left" Margin="274,116,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.007,0.412"/>
+        <TextBox Name="PriceBox" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="317,119,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="83"/>
+        <Label Content="PublishDate" Grid.Column="1" HorizontalAlignment="Left" Margin="136,69,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.027,0.498"/>
+        <TextBox Name="DateBox" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="214,72,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="90"/>
+        <Label Content="Description" Grid.Column="1" HorizontalAlignment="Left" Margin="317,69,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="DescriptionBox"  Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="392,69,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="87"/>
+        <Label Content="Delete by id     Find by Author" HorizontalAlignment="Left" Margin="223,27,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2" Width="242"/>
+
+    </Grid>
+</Window>
