@@ -1,0 +1,18 @@
+﻿In File D:\test\test1\Новый текстовый документ (2).txt the line text has been changed to replaceText
+In File D:\test\test1\Новый текстовый документ (2).txt the line textfdsfs has been changed to replaceTextfdsfs
+In File D:\test\test1\Новый текстовый документ (2).txt the line text has been changed to replaceText
+In File D:\test\test1\Новый текстовый документ.txt the line textfsadfs has been changed to replaceTextfsadfs
+In File D:\test\test1\Новый текстовый документ.txt the line text has been changed to replaceText
+In File D:\test\test1\Новый текстовый документ.txt the line fsdfsdfstextfsdfsdf has been changed to fsdfsdfsreplaceTextfsdfsdf
+In File D:\test\Новый текстовый документ.txt the line textfsadfs has been changed to replaceTextfsadfs
+In File D:\test\Новый текстовый документ.txt the line text has been changed to replaceText
+In File D:\test\Новый текстовый документ.txt the line fsdfsdfstextfsdfsdf has been changed to fsdfsdfsreplaceTextfsdfsdf
+In File D:\test\Новый текстовый документ (2).txt the line textfsadfs has been changed to replaceTextfsadfs
+In File D:\test\Новый текстовый документ (2).txt the line text has been changed to replaceText
+In File D:\test\Новый текстовый документ (2).txt the line fsdfsdfstextfsdfsdf has been changed to fsdfsdfsreplaceTextfsdfsdf
+In File D:\test\test1\Новый текстовый документ (2).txt the line textfsadfs has been changed to replaceTextfsadfs
+In File D:\test\test1\Новый текстовый документ (2).txt the line text has been changed to replaceText
+In File D:\test\test1\Новый текстовый документ (2).txt the line fsdfsdfstextfsdfsdf has been changed to fsdfsdfsreplaceTextfsdfsdf
+In File D:\test\test1\Новая папка\Новый текстовый документ.txt the line textfsadfs has been changed to replaceTextfsadfs
+In File D:\test\test1\Новая папка\Новый текстовый документ.txt the line text has been changed to replaceText
+In File D:\test\test1\Новая папка\Новый текстовый документ.txt the line fsdfsdfstextfsdfsdf has been changed to fsdfsdfsreplaceTextfsdfsdf

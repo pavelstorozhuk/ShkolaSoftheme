@@ -1,0 +1,12 @@
+c:\users\user\documents\visual studio 2013\Projects\task26\task26\bin\Debug\task26.exe.config
+c:\users\user\documents\visual studio 2013\Projects\task26\task26\bin\Debug\task26.exe
+c:\users\user\documents\visual studio 2013\Projects\task26\task26\bin\Debug\task26.pdb
+c:\users\user\documents\visual studio 2013\Projects\task26\task26\obj\Debug\task25.csprojResolveAssemblyReference.cache
+c:\users\user\documents\visual studio 2013\Projects\task26\task26\obj\Debug\task26.exe
+c:\users\user\documents\visual studio 2013\Projects\task26\task26\obj\Debug\task26.pdb
+C:\Users\User\Documents\Visual Studio 2013\repo\CSharpHW\25\task25_1\task26\bin\Debug\task26.exe.config
+C:\Users\User\Documents\Visual Studio 2013\repo\CSharpHW\25\task25_1\task26\obj\Debug\task26.exe
+C:\Users\User\Documents\Visual Studio 2013\repo\CSharpHW\25\task25_1\task26\obj\Debug\task26.pdb
+C:\Users\User\Documents\Visual Studio 2013\repo\CSharpHW\25\task25_1\task26\bin\Debug\task26.exe
+C:\Users\User\Documents\Visual Studio 2013\repo\CSharpHW\25\task25_1\task26\bin\Debug\task26.pdb
+C:\Users\User\Documents\Visual Studio 2013\repo\CSharpHW\25\task25_1\task26\obj\Debug\task25.csprojResolveAssemblyReference.cache
