@@ -66,6 +66,7 @@
                     <label for="all">Все</label>
                     <input name="radio" id="all" type="radio">
                     <label for "popular">Популярные</label>
+                    <!-- = sign missing -->
                     <input name="radio" id="popular" type="radio">
                     <label for="promotions">Акции</label>
                     <input name="radio" type="radio" id="promotions">
@@ -170,9 +171,11 @@
             </div>
         </div>
         <div class="container">
+            <!-- this container is a child from Rolls container. That's why padding for Rolls and Soups are different -->
             <div class="row row-flex">
                 <h2><b>Супы</b> </h2>
                 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                    <!-- don't use LG if you use same MD. LG is inherited from MD -->
                     <div class="item">
                         <h3>Калифорнийский унаги</h3>
                         <img class="  img-responsive" src="Sushi_img/1.jpeg" alt="List picture" width="" height="">
